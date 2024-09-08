@@ -3,7 +3,7 @@
 
 
 ## Table of Contents
-1. [Getting Started](#chapter-1---getting-started)
+1. [Getting Started](#chapter-1)
 2. [Modeling Nodes](#chapter-2---modeling-nodes)
 3. [Modeling Relationships](#chapter-3---modeling-relationships)
 4. [Testing the Model](#chapter-4---testing-the-model)
