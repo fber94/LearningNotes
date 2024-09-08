@@ -1,5 +1,5 @@
 # Graph Data Modeling Fundamentals
-<img src="img/course_icon.png" alt="course icon" width="250"/>
+<img src="./img/course_icon.png" alt="course icon" width="250"/>
 
 
 ## Table of Contents
@@ -93,7 +93,7 @@ for the graph.
 
 Below, an example:
 
-<img src="img/data_model.png" alt="data model" width="550"/>
+<img src="./img/data_model.png" alt="data model" width="550"/>
 
 ##### Style guidelines for modeling
 
@@ -392,7 +392,7 @@ SET m.languages = null
 
 Since nodes are used to store data about specific entities, you may have initially modeled, for example, a production node to contain the details of the address for the production company.
 
-<img src="img/graph_example.png" alt="graph example" width="550"/>
+<img src="./img/graph_example.png" alt="graph example" width="550"/>
 
 Storing complex data nodes like this may not be beneficial for a couple of reasons:
 - Duplicate data (location-related data)
@@ -402,7 +402,7 @@ Storing complex data nodes like this may not be beneficial for a couple of reaso
 
 If there is a high amount of duplicate data in the nodes or if the key nodes of your use cases would perform better if all nodes need not to be retrieved to get at the complex data, then you might consider refactoring the graph as shown below.
 
-<img src="img/graph_example_2.png" alt="graph example 2" width="550"/>
+<img src="./img/graph_example_2.png" alt="graph example 2" width="550"/>
 
 In this refactoring, if there are queries that need to filter production companies by their state, then it will be faster to query based upon the state.name value, rather than evaluatingall of the state properties for the production nodes.
 
@@ -476,19 +476,19 @@ You can create intermediate nodes when you need to
 
 Consider the following instance model with an hyper edge.
 
-<img src="img/hyper_edge.png" alt="hyper edge" width="550"/>
+<img src="./img/hyper_edge.png" alt="hyper edge" width="550"/>
 
 It could be refactored adding intermediate node.
 
-<img src="img/intermediate_node.png" alt="intermediate node" width="550"/>
+<img src="./img/intermediate_node.png" alt="intermediate node" width="550"/>
 
 ### Example: Intermediate Nodes for Sharing Data
 
 Here is what the graph looks like before we refactor it:
 
-<img src="img/many_edges.png" alt="many edges" width="550"/>
+<img src="./img/many_edges.png" alt="many edges" width="550"/>
 
 Intermediate nodes also allow you to deduplicate information.
 
-<img src="img/shared_info.png" alt="shared info" width="550"/>
+<img src="./img/shared_info.png" alt="shared info" width="550"/>
 
