@@ -4,13 +4,13 @@
 
 ## Table of Contents
 1. [Getting Started](#chapter_1)
-2. [Modeling Nodes](#chapter-2---modeling-nodes)
-3. [Modeling Relationships](#chapter-3---modeling-relationships)
-4. [Testing the Model](#chapter-4---testing-the-model)
-5. [Refactoring the Graph](#chapter-5---refactoring-the-graph)
-6. [Eliminate Duplicate Data](#chapter-6---eliminate-duplicate-data)
-7. [Using Specific Relationships](#chapter-7---using-specific-relationships)
-8. [Adding Intermediate Nodes](#chapter-8---adding-intermediate-nodes)
+2. [Modeling Nodes](#chapter_2)
+3. [Modeling Relationships](#chapter_3_)
+4. [Testing the Model](#chapter_4)
+5. [Refactoring the Graph](#chapter_5)
+6. [Eliminate Duplicate Data](#chapter_6)
+7. [Using Specific Relationships](#chapter_7)
+8. [Adding Intermediate Nodes](#chapter_8)
 
 
 ## Chapter 1 - Getting Started <a name="chapter_1"></a>
