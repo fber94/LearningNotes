@@ -1,15 +1,15 @@
 # Introducing MLOps
-<img src="img/book_cover.png" alt="cover" width="200"/>
+<img src="img/book_cover.PNG" alt="cover" width="200"/>
 
 
 ## Table of Contents
-1. [Why Now and Challenges](#chapter-1---why-now-and-challenges)
-2. [People of MLOps](#chapter-2---people-of-mlops)
-3. [Key MLOps Features](#chapter-3---key-mlops-features)
-4. [Developing Models](#chapter-4---developing-models)
-5. [Preparing for Production](#chapter-5---preparing-for-production)
-6. [Deploying to Production](#chapter-6---deploying-to-production)
-7. [Monitoring and Feedback Loop](#chapter-7---monitoring-and-feedback-loop)
+1. [Why Now and Challenges](#chapter_1)
+2. [People of MLOps](#chapter_2)
+3. [Key MLOps Features](#chapter_3)
+4. [Developing Models](#chapter_4)
+5. [Preparing for Production](#chapter_5)
+6. [Deploying to Production](#chapter_6)
+7. [Monitoring and Feedback Loop](#chapter_7)
 
 
 ## Chapter 1 - Why Now and Challenges <a name="chapter_1"></a>
@@ -22,7 +22,7 @@ It’s a process that helps organizations and business leaders generate long-ter
 
 At its core, MLOps is the standardization and streamlining of machine learning life cycle management.
 
-<img src="img/ml_lifecycle.png" alt="ml lifecycle" width="350"/>
+<img src="img/ml_lifecycle.PNG" alt="ml lifecycle" width="350"/>
 
 There are three key reasons that managing machine learning life cycles at scale is challenging:
 
@@ -35,7 +35,7 @@ There are three key reasons that managing machine learning life cycles at scale 
 
 Below, the representation of a ML lifecycle in an organization today.
 
-<img src="img/ml_lifecycle_2.png" alt="ml lifecycle 2" width="500"/>
+<img src="img/ml_lifecycle_2.PNG" alt="ml lifecycle 2" width="500"/>
 
 If the definition (or even the name MLOps) sounds familiar, that’s because it pulls heavily **from the concept of DevOps**, which streamlines the practice of software changes and updates. Indeed, the two have quite a bit in common. For example, they both center around:
 
@@ -67,7 +67,7 @@ Therefore, when looking at MLOps as a way to mitigate risk, an analysis should c
 
 Below, a table that helps decision makers with quantitative risk analysis.
 
-<img src="img/risk_matrix.png" alt="risk matrix" width="400"/>
+<img src="img/risk_matrix.PNG" alt="risk matrix" width="400"/>
 
 #### MLOps for Scale
 
@@ -81,7 +81,7 @@ Good MLOps practices will help teams at a minimum:
 
 ### Overview 
 
-<img src="img/people_table.png" alt="people table" width="650"/>
+<img src="img/people_table.PNG" alt="people table" width="650"/>
 
 ### Subject Matter Experts
 
@@ -254,17 +254,17 @@ One approach to mitigating this uncertainty is **shadow testing**, where the new
 
 ## Chapter 4 - Developing Models <a name="chapter_4"></a>
 
-<img src="img/ml_lifecycle_3.png" alt="ml lifecycle" width="550"/>
+<img src="img/ml_lifecycle_3.PNG" alt="ml lifecycle" width="550"/>
 
 ### Required Components
 
 Building a machine learning model requires many components as outlined in the table below.
 
-<img src="img/ml_components.png" alt="ml components" width="550"/>
+<img src="img/ml_components.PNG" alt="ml components" width="550"/>
 
 ### Different ML Algorithms, Different MLOps Challenges
 
-<img src="img/algorithms_challenges.png" alt="algorithm challenges" width="550"/>
+<img src="img/algorithms_challenges.PNG" alt="algorithm challenges" width="550"/>
 
 ### Data Exploration
 
@@ -283,7 +283,7 @@ Of course, domain knowledge is required to make informed decisions during this e
 The table below provides examples of how features may be
 engineered:
 
-<img src="img/feature_engineering.png" alt="feature engineering" width="550"/>
+<img src="img/feature_engineering.PNG" alt="feature engineering" width="550"/>
 
 Ultimately, most ML algorithms require a table of numbers as input, each row representing a sample, and all samples coming from the same dataset. When the input data is not tabular, data scientists can use other tricks to transform it.
 
@@ -309,7 +309,7 @@ Goals of experimentation include:
 
 **Cross-validation**: a scheme in which a test dataset is a holdout (in gray) in order to perform the evaluation. The remaining data is split into three parts to find the best hyperparameter combination by training the model three times with a given combination on each of the blue datasets, and validating its performance on their respective green datasets. The gray dataset is used only once with the best hyperparameter  combination, while the other datasets are used with all of them.
 
-<img src="img/cross_validation.png" alt="cross validation" width="550"/>
+<img src="img/cross_validation.PNG" alt="cross validation" width="550"/>
 
 ### Cross-Checking Model Behavior
 
@@ -345,7 +345,7 @@ With data scientists building, testing, and iterating on several versions of mod
 
 ## Chapter 5 - Preparing for Production <a name="chapter_5"></a>
 
-<img src="img/prepare_for_prd.png" alt="prepare for prd" width="550"/>
+<img src="img/prepare_for_prd.PNG" alt="prepare for prd" width="550"/>
 
 ### Runtime Environments
 
@@ -423,7 +423,7 @@ In general, **reproducibility** in MLOps also involves the ability to easily rer
 
 Business leaders view the rapid deployment of new systems into production as key to maximizing business value. But this is only true if deployment can be done smoothly and at low risk.
 
-<img src="img/deploy_to_prd.png" alt="deploy to prd" width="550"/>
+<img src="img/deploy_to_prd.PNG" alt="deploy to prd" width="550"/>
 
 ### CI/CD Pipelines
 
@@ -551,7 +551,7 @@ For **batch scoring**, the situation can be more complex. When the volume of dat
 
 When a machine learning model is deployed in production, it can start degrading in quality fast—and without warning—until it’s too late (i.e., it’s had a potentially negative impact on the business). That’s why model monitoring is a crucial step in the ML model life cycle and a critical piece of MLOps.
 
-<img src="img/monitoring_and_feeback_loop.png" alt="monitoring and feedback loop" width="550"/>
+<img src="img/monitoring_and_feeback_loop.PNG" alt="monitoring and feedback loop" width="550"/>
 
 Machine learning models need to be **monitored** at two levels:
 
@@ -635,7 +635,7 @@ If this model is successful in its task, and thus has a high drift score, it imp
 
 All effective machine learning projects implement a form of data feedback loop; that is, information from the production environment flows back to the model prototyping environment for further improvement.
 
-<img src="img/feedback_loop.png" alt="feedback loop" width="550"/>
+<img src="img/feedback_loop.PNG" alt="feedback loop" width="550"/>
 
 This infrastructure is comprised of three
 main components:
