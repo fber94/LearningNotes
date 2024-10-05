@@ -1,2 +1,2 @@
 # LearningNotes
-Notes from Books &amp; Courses about Data
+Notes from Books &amp; Courses
