@@ -1,4 +1,4 @@
-# Building Neo4j Applications with Python
+# Azure Cosmos DB
 
 <img src="img/badge.png" alt="badge" width="200"/>
 
